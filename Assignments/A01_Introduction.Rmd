@@ -1,6 +1,6 @@
 ---
 title: "Assignment 1: Introduction"
-author: "Student Name"
+author: Meilin Chan
 output: pdf_document
 geometry: margin=2.54cm
 ---
@@ -22,21 +22,21 @@ The completed exercise is due on <>.
 
 1. What are your previous experiences with data analytics, R, and Git? Include both formal and informal training.
 
-> Answer: 
+> Answer: I have very little training with data analytics, R, and Git. Over the pandemic, I tried to learn how to use R through coursera as well as some Python. However, since I have no background or familiarity with coding in general, I found this very difficult.
 
 2. Are there any components of the course about which you feel confident?
 
-> Answer: 
+> Answer: Not really, but I'm excited to learn a lot from this course!
 
 3. Are there any components of the course about which you feel apprehensive?
 
-> Answer: 
+> Answer: I am unfamiliar with coding in general and anything to do with data analysis outside of basic Excel functions. Navigating RStudio as well as GitHub felt very daunting, but is getting easier to do now. 
 
 
 ## 2) GitHub
 
 Provide a link below to your forked course repository in GitHub. Make sure you have pulled all recent changes from the course repository  and that you have updated your course README file. 
 
-> Answer: 
+> Answer: https://github.com/mchan211/Environmental_Data_Analytics_2021.git
 
 
