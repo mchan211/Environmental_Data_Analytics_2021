@@ -78,7 +78,7 @@ library(tidyverse)
 
 Question: What happens in the console when you load a package?
 
-> Answer: 
+> Answer: Using the library() function, the console pulls up any attached packages as well as any conflicts within the package 
 
 ### Import your datasets
 
@@ -119,7 +119,7 @@ USGS.flow.data <- read.csv("../Data/Raw/USGS_Site02085000_Flow_Raw.csv")
 ## EXPLORE YOUR DATASET
 
 Take a moment to read through the README file associated with the USGS dataset on discharge at the Eno River. Where can you find this file? How does the placement and information found in this file relate to the best practices for reproducible data analysis?
-> ANSWER: 
+> ANSWER: Can be found in the Raw file - make sure you make a copy of this file and only make changes in this copied file
 
 ```{r exploredata}
 View(USGS.flow.data)
@@ -168,7 +168,7 @@ summary(USGS.flow.data$gage.height.mean)
 ```
 Question: What types of research questions might make it favorable to remove NAs from a dataset, and what types of research questions might make it favorable to retain NAs in the dataset?
 
-> Answer: 
+> Answer: You don't want to remove during a time series analysis
 
 ```{r removeNA}
 USGS.flow.data.complete <- na.omit(USGS.flow.data)
